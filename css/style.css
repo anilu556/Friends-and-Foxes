@@ -324,40 +324,12 @@ button a:hover{
         margin-top: 10px;
 }
 
-#clientsDesk .row, #clientsRes .row{
-    justify-content: center !important;
-    align-items: center !important;
-}
-
-#clientsDesk .clientsRow2{
-    margin: 0 auto !important ;
-    width: 75%;
-}
-
-#clientsDesk .clientsRow3{
-    margin: 0 auto !important;
-    width: 72%;
-}
-
-#clientsDesk .clientCont img{
-    width: 80%;
-    margin: 0 auto;
+#clientsRes img{
     display: block;
-}
-
-#clientsRes .clientCont{
     margin: 0 auto;
-    display: block;
-}
-
-#clientsRes .clientCont img{
-    margin: 0 auto;
-    display: block;
-    width: 130px;
 }
 
 .knowCont{
-    margin-top: 35px !important;
     margin-bottom: 35px;
 }
 
@@ -587,9 +559,9 @@ button a:hover{
     .cases{
         padding: 10px !important;
     }
-
-    #clientsRes .clientCont img{
-        width: 160px;
+    .bannerDesk{
+        display: block;
+        padding-top: 100px;
     }
 }
 
@@ -616,4 +588,43 @@ button a:hover{
     .bannerDesk{
         display: block;
     }
+
+    .adressCont{
+        padding-top: 256px !important;
+        margin: 0 156px !important;
+    }
+    
+    .textCont{
+        margin: 63px 142px !important;
+    }
+    
+}
+
+
+/* Impressum */
+
+.adressCont{
+    padding-top: 200px;
+    margin: 0 30px;
+}
+
+.adressCont p{
+    font-family: 'Archivo';
+    font-style: italic;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 20px;
+}
+
+.textCont{
+    margin: 35px 25px;
+}
+
+.textCont p{
+    font-family: 'Archivo';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+    color: #000000;
 }
